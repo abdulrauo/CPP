@@ -32,12 +32,12 @@ public:
 };
 int main()
 {
-    complex c(2, 3), c2(5, 4);
+    complex c(2, 3), c2(5, 4), c4;
     c.display();
     c2.display();
     complex c3 = c + c2;
     c3.display();
-    c3 = c * c2;
-    c3.display();
+    c4 = c * c2;
+    c4.display();
     return (0);
 }
